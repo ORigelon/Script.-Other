@@ -1,0 +1,9 @@
+--Doors-Qi-OR
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "QI AND OR联动脚本",
+    Text = "Loading…",
+    Duration = 5, 
+});
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ORigelon/reactinchain/main/DOORS.lua
